@@ -41,7 +41,7 @@ generic-service:
   #     [name of environment variable as seen by app]: [key of kubernetes secret to load]
 
   namespace_secrets:
-    san-ccitypescript-test:
+    san-ccitypescript-dev:
       APPINSIGHTS_INSTRUMENTATIONKEY: 'APPINSIGHTS_INSTRUMENTATIONKEY'
       AUTH_CODE_CLIENT_ID: 'AUTH_CODE_CLIENT_ID'
       AUTH_CODE_CLIENT_SECRET: 'AUTH_CODE_CLIENT_SECRET'
